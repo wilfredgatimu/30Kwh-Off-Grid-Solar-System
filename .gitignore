@@ -1,0 +1,10 @@
+# Ignore raw data files - client confidential
+*.csv
+*.xlsx
+*.xls
+*.accdb
+
+# Ignore local folders
+/screenshots/
+/data/
+.DS_Store
