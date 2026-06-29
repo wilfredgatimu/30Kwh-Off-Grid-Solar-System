@@ -11,8 +11,11 @@ Power Bi dashboard analyzing a 30Kwh off-grid solar + battery system. Tracks pro
 - **Risk**: 119 Deficit Days total, 34% from Plant_5, Plant_6, Plant_2
 
 
-## Data Engineering
-Daily plant tables were combined using SQL
+### Data Engineering
+-Daily plant tables were combined using SQL. You find this in [sql/data_cleaning.sql](sql/data_cleaning.sql):
+-**'CREATED TABLE solar_daily_system'** created and Defined a clean schema for  solar data:
+-**'UNION ALL'** Combined the 9 plants into one table for analysis
+-**Portfolio KPIs**: Production totals, consumption, grid feed-in, and battery efficiency queries are included
 
 **Dataset Structure**
 ## Dataset Schema 
